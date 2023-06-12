@@ -1,0 +1,36 @@
+.products-data {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.product-pagination {
+  padding: 10px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.product-pagination > span {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #80808069;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.pagination_selected {
+  background-color: #0a84ff !important;
+  color: white !important;
+}
+
+.pagination_disabled {
+  opacity: 0;
+}

@@ -1,0 +1,30 @@
+.product-card {
+  box-shadow: 0 1px 4px #ccc;
+}
+
+.product-card-image img {
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  height: 200px;
+}
+
+.product-card-data {
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+}
+
+.product-card-data h3,
+.product-card-data p {
+  margin: 0;
+}
+
+.product-card-data h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.product-card-data p {
+  font-size: 0.9rem;
+  color: rgb(132, 129, 129);
+}
